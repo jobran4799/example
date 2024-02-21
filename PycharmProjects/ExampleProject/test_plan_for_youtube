@@ -1,0 +1,88 @@
+test_plan
+    test Case Name:
+        - choose category
+        - choose a song to play
+        - entrying to profile page
+        - enter to history_list_play
+        - press_on_mute_mode
+
+    Objective
+        Choose Category:
+            This test aims to verify that users can select a category to explore content on YouTube successfully. It ensures that the category selection functionality works as intended, allowing users to navigate to their desired content category.
+        Choose a Song to Play:
+            This test aims to verify that users can select a specific song to play on YouTube successfully. It ensures that the song selection functionality works as intended, allowing users to initiate playback of their chosen song without errors.
+        Entering to Profile Page:
+            This test aims to verify that users can access their profile page on YouTube successfully. It ensures that the profile page entry functionality works as intended, allowing users to view and manage their account settings, subscriptions, and other profile-related information.
+        Enter to History List Play:
+            This test aims to verify that users can access their playback history list on YouTube successfully. It ensures that the history list entry functionality works as intended, allowing users to view previously watched videos and resume playback from where they left off.
+        Enter to Watch Later List:
+            This test aims to verify that users can access their "Watch Later" list on YouTube successfully. It ensures that the "Watch Later" list entry functionality works as intended, allowing users to save videos for later viewing and manage their saved content effectively.
+
+    Preconditions:
+        Choose Category:
+            Ensure that the user is logged in to their YouTube account.
+            Verify that the category menu is visible and accessible on the YouTube interface.
+            Make sure that the user has a stable internet connection to browse and select categories.
+        Choose a Song to Play:
+            Confirm that the user is logged in to their YouTube account.
+            Ensure that the search functionality or navigation menu for finding songs is available.
+            Verify that the selected song is playable and not restricted due to copyright or other limitations.
+        Entering to Profile Page:
+            Ensure that the user is logged in to their YouTube account.
+            Confirm that the profile icon or link is visible and accessible on the YouTube interface.
+            Make sure that the user has appropriate permissions to access and modify their profile settings.
+        Enter to History List Play:
+            Ensure that the user is logged in to their YouTube account.
+            Verify that the history list feature is enabled and visible on the YouTube interface.
+            Make sure that the user has previously watched videos to populate the history list.
+        Enter to Watch Later List:
+            Confirm that the user is logged in to their YouTube account.
+            Ensure that the "Watch Later" feature is enabled and visible on the YouTube interface.
+            Make sure that the user has saved videos to their "Watch Later" list for testing purposes.
+
+    Test Steps:
+        Choose Category:
+            -Navigate to the YouTube website.
+            -Locate and click on the "Categories" menu or button.
+            -Choose a specific category from the available options.
+            -Verify that the selected category page loads successfully.
+        Choose a Song to Play:
+            -Access the YouTube website.
+            -Click on the desired song from the search results or category listings.
+            -Confirm that the song page loads correctly and displays the song's details.
+            -Initiate playback of the selected song and ensure it starts playing without errors.
+        Entering to Profile Page:
+            -Open the YouTube website.
+            -Log in to the user's YouTube account if not already logged in.
+            -Locate and click on the user's profile icon or name.
+            -Verify that the profile page loads successfully.
+
+        Enter to History List Play:
+            -Visit the YouTube website.
+            -click on the right-up button
+            -Navigate to the user's history section
+            -Ensure that the history list loads correctly and displays previously watched videos.
+
+        Enter to Watch Later List:
+            -Go to the YouTube website.
+            -click on the right-up button
+            -Find and click on the "Watch Later" playlist or link.
+            -Confirm that the "Watch Later" list loads successfully.
+
+    Expected Results:
+        Choose Category:
+            The selected category page should load successfully without errors.
+
+        Choose a Song to Play:
+            The song's page should load correctly and display relevant information such as the title, artist, and thumbnail.
+            Playback of the selected song should start promptly and without interruptions.
+
+        Entering to Profile Page:
+            The user's profile page should load without errors and display the user's profile information.
+            Profile settings and preferences should be accessible and editable.
+
+        Enter to History List Play:
+            The history list page should load correctly and display previously watched videos.
+
+        Enter to Watch Later List:
+            The "Watch Later" list page should load without errors and display videos saved by the user.
